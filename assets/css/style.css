@@ -27,13 +27,62 @@ li {
   list-style: none;
 }
 
-@keyframes slides {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+/* LOGOS-SECTION-- */
+
+.u-wrapper {
+  width: 100%;
+  background: linear-gradient(89.88deg, #7dbe2f 10.8%, #5aa216 98.32%);
+  overflow: hidden;
+  padding: 47px 0;
+}
+
+.c-carousel {
+  overflow-x: visible;
+  position: relative;
+  width: 100%;
+}
+
+.c-carousel__wrapper.swiper {
+  margin: 0 48px;
+  position: static;
+}
+
+.c-carousel__inner-wrapper.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.c-carousel img {
+  margin: 0 auto;
+}
+
+.c-carousel__controls {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-carousel__button--next,
+.c-carousel__button--prev {
+  cursor: pointer;
+}
+
+.c-carousel__button--prev.swiper-button-disabled,
+.c-carousel__button--next.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.c-carousel__item.swiper-slide {
+  max-width: 300px;
+  width: auto;
+  flex-shrink: 0;
+}
+.c-carousel__item img{
+  margin-right: 66px;
 }
 .logos {
   padding: 47px 0;
@@ -45,7 +94,6 @@ li {
 }
 .logos-content {
   display: flex;
-  animation: marquee 40s linear infinite running;
 }
 
 .logo-tag {
@@ -55,15 +103,6 @@ li {
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translate(-50%);
-  }
 }
 
 /* BUSINESSS- */
