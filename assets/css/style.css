@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1252px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+body {
+  font-family: "Poppins";
+}
+:root {
+  --green: #7dbe2f;
+  --white: #fff;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  display: block;
+}
+li {
+  list-style: none;
+}
+
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.logos {
+  padding: 47px 0;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(89.88deg, #7dbe2f 10.8%, #5aa216 98.32%);
+  align-items: center;
+  overflow: hidden;
+}
+.logos-content {
+  display: flex;
+  animation: marquee 10s linear infinite running;
+}
+
+.logo-tag {
+  width: 300px;
+  margin: 0 0.5em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
+
+/* BUSINESSS- */
+.business {
+  background: linear-gradient(
+    180deg,
+    rgba(125, 190, 47, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 102px 0;
+}
+.business-title h2 {
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 100px;
+  letter-spacing: -2px;
+  text-align: center;
+  padding-bottom: 19px;
+}
+.business-title span {
+  background: linear-gradient(89.74deg, #7dbe2f 30.43%, #5aa216 70.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+.business-title p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  line-height: 166%;
+  padding-bottom: 66px;
+  max-width: 1096px;
+  margin: auto;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary {
+  background: linear-gradient(265.28deg, #7dbe2f -9.87%, #5aa216 99.46%);
+  color: var(--white);
+  border-radius: 10px;
+  margin-right: 40px;
+  padding: 17px 34px;
+}
+.btn-success {
+  border: 1px solid #7dbe2f;
+  padding: 14px 34px;
+  border-radius: 10px;
+  color: #000000;
+}

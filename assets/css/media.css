@@ -1,0 +1,26 @@
+@media (max-width: 575px) {
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .btn-primary {
+    margin-right: 0;
+  }
+  .business-title p {
+    text-align: left;
+  }
+  .business-title h2 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 73px;
+    letter-spacing: -2px;
+    text-align: left;
+    padding-bottom: 19px;
+  }
+  .business-title span {
+    display: inherit;
+  }
+}
