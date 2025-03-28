@@ -70,12 +70,12 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 .btn-primary {
   background: linear-gradient(265.28deg, #7dbe2f -9.87%, #5aa216 99.46%);
   color: var(--white);
   border-radius: 10px;
-  margin-right: 40px;
   padding: 17px 34px;
 }
 .btn-success {
