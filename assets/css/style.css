@@ -45,7 +45,7 @@ li {
 }
 .logos-content {
   display: flex;
-  animation: marquee 10s linear infinite running;
+  animation: marquee 30s linear infinite running;
 }
 
 .logo-tag {
