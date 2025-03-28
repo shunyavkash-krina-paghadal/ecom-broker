@@ -24,3 +24,12 @@
     display: inherit;
   }
 }
+
+@media (max-width: 767px) {
+  .business-title h2 {
+    font-size: 68px;
+  }
+  .business-title p {
+    font-size: 18px;
+  }
+}
