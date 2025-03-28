@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 1252px;
+  max-width: 1284px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -45,7 +45,7 @@ li {
 }
 .logos-content {
   display: flex;
-  animation: marquee 30s linear infinite running;
+  animation: marquee 40s linear infinite running;
 }
 
 .logo-tag {
