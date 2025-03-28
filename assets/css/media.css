@@ -1,3 +1,12 @@
+@media (max-width: 1024px) {
+  .business-title h2 {
+    font-size: 68px;
+  }
+  .business-title p {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 575px) {
   .btn {
     display: flex;
@@ -22,14 +31,5 @@
   }
   .business-title span {
     display: inherit;
-  }
-}
-
-@media (max-width: 767px) {
-  .business-title h2 {
-    font-size: 68px;
-  }
-  .business-title p {
-    font-size: 18px;
   }
 }
